@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <unistd.h>
 
 int main()
 {
@@ -24,4 +25,5 @@ int main()
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
     printf("Tiempo de ejecucion: %f segundos\n", cpu_time_used);
 	return 0;
+
 }
